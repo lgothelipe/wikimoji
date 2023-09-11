@@ -1,11 +1,11 @@
-name: 😜 Gitmoji proposal
-description: Suggest a new gitmoji!
+name: 😜 Emoji proposal
+description: Suggest a new emoji!
 labels: [emoji]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for your interest in the project and taking the time to fill out this gitmoji suggestion!
+        Thanks for your interest in the project and taking the time to fill out this wikimoji suggestion!
   - type: input
     id: emoji-symbol
     attributes:
@@ -80,9 +80,9 @@ body:
       label: Validations
       description: Before submitting the issue, please make sure you do the following
       options:
-        - label: Follow our [Code of Conduct](https://github.com/carloscuesta/gitmoji/blob/master/CODE_OF_CONDUCT.md)
+        - label: Follow our [Code of Conduct](https://github.com/lgothelipe/wikimoji/blob/master/CODE_OF_CONDUCT.md)
           required: true
-        - label: Read the [Contributing Guide](https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md).
+        - label: Read the [Contributing Guide](https://github.com/lgothelipe/wikimoji/blob/master/.github/CONTRIBUTING.md).
           required: true
         - label: Check that there isn't already an issue requesting the emoji.
           required: true
